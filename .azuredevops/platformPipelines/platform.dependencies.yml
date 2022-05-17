@@ -12,11 +12,11 @@ parameters:
   - name: globalVariablesTemplate
     displayName: Global variables YML template
     type: string
-    default: "../../global.variables.yml"
+    default: ''../../global.variables.yml'
   - name: azureDevOpsVarGroup
     displayName: Azure DevOps Variable Group
     type: string
-    default: "PLATFORM_VARIABLES"
+    default: 'PLATFORM_VARIABLES'
 
 pr: none
 trigger: none
